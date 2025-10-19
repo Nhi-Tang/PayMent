@@ -16,5 +16,12 @@ namespace PayMent
         {
             InitializeComponent();
         }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            frmPayment pm = new frmPayment();  
+            pm.Show();
+            this.Hide();
+        }
     }
 }
