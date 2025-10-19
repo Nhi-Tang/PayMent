@@ -31,11 +31,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.grBoxThanhToan = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTimKiem2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtSoPhong = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -59,7 +59,7 @@
             // 
             // grBoxThanhToan
             // 
-            this.grBoxThanhToan.Controls.Add(this.textBox1);
+            this.grBoxThanhToan.Controls.Add(this.txtTimKiem);
             this.grBoxThanhToan.Controls.Add(this.label1);
             this.grBoxThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grBoxThanhToan.Location = new System.Drawing.Point(11, 13);
@@ -78,38 +78,38 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tìm kiếm";
             // 
-            // textBox1
+            // txtTimKiem
             // 
-            this.textBox1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox1.Location = new System.Drawing.Point(423, 77);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(305, 49);
-            this.textBox1.TabIndex = 1;
+            this.txtTimKiem.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtTimKiem.Location = new System.Drawing.Point(423, 77);
+            this.txtTimKiem.Multiline = true;
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(305, 49);
+            this.txtTimKiem.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btnThanhToan);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.txtSoPhong);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.txtTimKiem2);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Location = new System.Drawing.Point(2, 607);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1034, 92);
             this.panel2.TabIndex = 1;
             // 
-            // textBox2
+            // txtTimKiem2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox2.Location = new System.Drawing.Point(25, 32);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(174, 49);
-            this.textBox2.TabIndex = 3;
+            this.txtTimKiem2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtTimKiem2.Location = new System.Drawing.Point(25, 32);
+            this.txtTimKiem2.Multiline = true;
+            this.txtTimKiem2.Name = "txtTimKiem2";
+            this.txtTimKiem2.ReadOnly = true;
+            this.txtTimKiem2.Size = new System.Drawing.Size(174, 49);
+            this.txtTimKiem2.TabIndex = 3;
             // 
             // label2
             // 
@@ -121,15 +121,15 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Tìm kiếm";
             // 
-            // textBox3
+            // txtSoPhong
             // 
-            this.textBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.textBox3.Location = new System.Drawing.Point(285, 32);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(173, 49);
-            this.textBox3.TabIndex = 5;
+            this.txtSoPhong.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtSoPhong.Location = new System.Drawing.Point(285, 32);
+            this.txtSoPhong.Multiline = true;
+            this.txtSoPhong.Name = "txtSoPhong";
+            this.txtSoPhong.ReadOnly = true;
+            this.txtSoPhong.Size = new System.Drawing.Size(173, 49);
+            this.txtSoPhong.TabIndex = 5;
             // 
             // label3
             // 
@@ -217,12 +217,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox grBoxThanhToan;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtSoPhong;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTimKiem2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
